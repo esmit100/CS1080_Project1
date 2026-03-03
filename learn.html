@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avalanche Awareness & Rescue | Learn</title>
+  <link rel="stylesheet" href="style/styles.css" />
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="media/avalanche.jpeg" class="brand-logo" alt="Snow mountain icon" />
+        <div>
+          <p class="brand-title">Avalanche Awareness & Rescue</p>
+          <p class="brand-subtitle">Learn the basics</p>
+        </div>
+      </div>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="learn.html">Learn</a>
+        <a class="nav-link" href="rescue.html">Rescue</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container section">
+    <header class="section-header">
+      <h1>Learn</h1>
+      <p>
+        Beginner-friendly concepts from avalanche awareness training — written in a simple,
+        practical way.
+      </p>
+    </header>
+
+    <section class="two-col">
+      <article>
+        <h2>Common avalanche “red flags”</h2>
+        <ul class="styled-list">
+          <li><strong>Recent avalanches</strong> nearby</li>
+          <li><strong>Cracking</strong> shooting out from your feet/skis</li>
+          <li><strong>“Whumphing”</strong> sounds (collapsing weak layer)</li>
+          <li><strong>Heavy new snow</strong> or strong wind loading</li>
+          <li><strong>Rapid warming</strong> or intense sun</li>
+        </ul>
+        <p class="small-note">If you see multiple red flags, choose simpler terrain or turn around.</p>
+      </article>
+
+      <article>
+        <h2>Simple terrain reminders</h2>
+        <ul class="styled-list">
+          <li>Steeper slopes are generally more likely to slide.</li>
+          <li>Avoid terrain traps (gullies, creek beds, road cuts).</li>
+          <li>Spread out when crossing questionable areas.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <header class="section-header">
+        <h2>Multimedia: Avalanche Video</h2>
+        <p>This is a locally hosted avalanche awareness video (MP4 file).</p>
+      </header>
+
+      <div class="video-wrap">
+        <video controls width="100%">
+          <source src="media/avalanche.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <p class="small-note">
+        Not all of us can be as lucky as this crazy man so here are some red flags to look out for.
+      </p>
+    </section>
+
+    <section class="section">
+      <header class="section-header">
+        <h2>Mini “Plan in 5 minutes” template</h2>
+        <p>Not a replacement for real planning — just a starter structure.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card">
+          <h3>1) Conditions</h3>
+          <p>Read the forecast. Note danger rating and key problems.</p>
+        </article>
+        <article class="card">
+          <h3>2) Route</h3>
+          <p>Pick conservative terrain + have a backup option.</p>
+        </article>
+        <article class="card">
+          <h3>3) Group</h3>
+          <p>Beacon check, spacing plan, and clear communication.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="links">
+      <header class="section-header">
+        <h2>Helpful links</h2>
+        <p>External references you can customize for your region.</p>
+      </header>
+
+      <ul class="styled-list">
+        <li>
+          <a class="text-link" href="https://avalanche.org/" target="_blank" rel="noreferrer">
+            American Avalanche Association
+          </a>
+        </li>
+        <li>
+          <a class="text-link" href="https://www.avalanche.ca/" target="_blank" rel="noreferrer">
+            Avalanche Canada
+          </a>
+        </li>
+        <li>
+          <a class="text-link" href="https://utahavalanchecenter.org/" target="_blank" rel="noreferrer">
+            Utah Avalanche Center (example forecast site)
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <header class="section-header">
+        <h2>Knowledge check (tiny quiz)</h2>
+      </header>
+
+      <form class="quiz" id="quizForm">
+        <fieldset>
+          <legend>Which is a classic avalanche red flag?</legend>
+          <label><input type="radio" name="q1" value="a" /> Blue sky</label>
+          <label><input type="radio" name="q1" value="b" /> Cracking in the snow</label>
+          <label><input type="radio" name="q1" value="c" /> Light breeze</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>What’s the best rescue strategy?</legend>
+          <label><input type="radio" name="q2" value="a" /> Prevention (avoid being caught)</label>
+          <label><input type="radio" name="q2" value="b" /> Buying newer gear</label>
+          <label><input type="radio" name="q2" value="c" /> Skiing faster</label>
+        </fieldset>
+
+        <button class="btn" type="submit">Check answers</button>
+        <p class="tip-box" id="quizResult" hidden></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Next: <a class="footer-link" href="rescue.html">Rescue</a></p>
+      <p class="small-note">© <span id="year"></span></p>
+    </div>
+  </footer>
+</body>
+
+</html>
