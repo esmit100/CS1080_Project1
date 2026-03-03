@@ -11,12 +11,9 @@ A 3-page informational website about avalanche awareness and rescue basics.
 ## Key Features
 - Semantic HTML structure
 - 3 linked pages
-- Image (local SVG)
+- Image (local PNG & JPEG)
 - Table (on Rescue page)
-- Multimedia element (embedded video on Learn page)
-- Flexbox layout + responsive media query
+- Multimedia element (local video)
+- Flexbox layout + responsive media query (cross over from Hackathon project)
 - CSS styling for layout, typography, lists, and tables
 - Optional JavaScript: tip toggle + quiz
-
-## Publishing (GitHub Pages)
-Upload the project to GitHub → Settings → Pages → Deploy from branch → main → /root.# CS1080_Project1

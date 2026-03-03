@@ -1,10 +1,7 @@
-// Small JS enhancements (not required by the project, but nice to have)
-
 (function () {
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
-  // Home page tip toggle
   const toggleBtn = document.getElementById("toggleTipBtn");
   const tip = document.getElementById("planningTip");
 
@@ -21,7 +18,6 @@
     });
   }
 
-  // Learn page quiz
   const quizForm = document.getElementById("quizForm");
   const quizResult = document.getElementById("quizResult");
 
